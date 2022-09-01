@@ -4,16 +4,16 @@ public class FizzBuzz {
 
     public String countOff(int i) {
         if (i % 3 == 0 && i % 5 == 0 && i % 7 == 0) {
-            return "Fizz Buzz Whizz";
+            return "FizzBuzzWhizz";
         }
         if (i % 5 == 0 && i % 7 == 0) {
-            return "Buzz Whizz";
+            return "BuzzWhizz";
         }
         if (i % 3 == 0 && i % 7 == 0) {
-            return "Fizz Whizz";
+            return "FizzWhizz";
         }
         if (i % 3 == 0 && i % 5 == 0) {
-            return "Fizz Buzz";
+            return "FizzBuzz";
         }
         if (i % 7 == 0) {
             return "Whizz";

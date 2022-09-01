@@ -57,7 +57,7 @@ public class FizzBuzzTest {
     void should_return_fizzbuzz_when_countOff_given_multiple_of_3_and_5() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String expected = "Fizz Buzz";
+        String expected = "FizzBuzz";
         int input = 15;
         //when
         String actual = fizzBuzz.countOff(input);
@@ -69,7 +69,7 @@ public class FizzBuzzTest {
     void should_return_fizzwhizz_when_countOff_given_multiple_of_3_and_7() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String expected = "Fizz Whizz";
+        String expected = "FizzWhizz";
         int input = 21;
         //when
         String actual = fizzBuzz.countOff(input);
@@ -81,7 +81,7 @@ public class FizzBuzzTest {
     void should_return_buzzwhizz_when_countOff_given_multiple_of_5_and_7() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String expected = "Buzz Whizz";
+        String expected = "BuzzWhizz";
         int input=35;
         //when
         String actual = fizzBuzz.countOff(input);
@@ -93,7 +93,7 @@ public class FizzBuzzTest {
     void should_return_fizzbuzzwhizz_when_countOff_given_multiple_of_3_5_and_7() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String expected = "Fizz Buzz Whizz";
+        String expected = "FizzBuzzWhizz";
         int input = 105;
         //when
         String actual = fizzBuzz.countOff(input);
