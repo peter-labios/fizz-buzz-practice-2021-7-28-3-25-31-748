@@ -3,7 +3,9 @@ package tdd.fizzbuzz;
 public class FizzBuzz {
 
     public String countOff(int i) {
-        if(i%3 == 0 && i%5 == 0){
+        if(i%3 == 0 && i%7 == 0){
+            return "Fizz Whizz";
+        } else if(i%3 == 0 && i%5 == 0){
             return "Fizz Buzz";
         } else if(i%3 == 0){
             return "Fizz";
