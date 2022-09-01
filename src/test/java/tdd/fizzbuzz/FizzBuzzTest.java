@@ -12,4 +12,15 @@ public class FizzBuzzTest {
         String actual = fizzBuzz.countOff(1);
         assertEquals(expected, actual);
     }
+
+    @Test
+    void should_return_fizz_when_countOff_given_3() {
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String expected = "fizz";
+        String actual = fizzBuzz.countOff(3);
+        //when
+        assertEquals(expected, actual);
+        //then
+    }
 }
