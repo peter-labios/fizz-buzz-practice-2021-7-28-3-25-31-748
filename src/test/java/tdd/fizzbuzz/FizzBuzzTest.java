@@ -17,10 +17,21 @@ public class FizzBuzzTest {
     void should_return_fizz_when_countOff_given_3() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String expected = "fizz";
+        String expected = "Fizz";
         String actual = fizzBuzz.countOff(3);
         //when
         assertEquals(expected, actual);
         //then
+    }
+
+    @Test
+    void should_return_buzz_when_countOff_given_5() {
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String expected = "Buzz";
+        String actual = fizzBuzz.countOff(5);
+        //when
+        assertEquals(expected, actual);
+    //then
     }
 }
