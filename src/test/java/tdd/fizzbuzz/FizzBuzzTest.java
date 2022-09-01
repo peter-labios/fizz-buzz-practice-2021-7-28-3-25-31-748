@@ -7,9 +7,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
     @Test
      void should_return_1_when_countOff_given_1(){
+        //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "1";
-        String actual = fizzBuzz.countOff(1);
+        int input = 1;
+        //when
+        String actual = fizzBuzz.countOff(input);
+        //then
         assertEquals(expected, actual);
     }
 
@@ -18,10 +22,11 @@ public class FizzBuzzTest {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Fizz";
-        String actual = fizzBuzz.countOff(3);
+        int input = 3;
         //when
-        assertEquals(expected, actual);
+        String actual = fizzBuzz.countOff(input);
         //then
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -29,10 +34,11 @@ public class FizzBuzzTest {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Buzz";
-        String actual = fizzBuzz.countOff(5);
+        int input = 5;
         //when
-        assertEquals(expected, actual);
+        String actual = fizzBuzz.countOff(input);
         //then
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -40,10 +46,11 @@ public class FizzBuzzTest {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Whizz";
-        String actual = fizzBuzz.countOff(7);
+        int input = 7;
         //when
-        assertEquals(expected, actual);
+        String actual = fizzBuzz.countOff(input);
         //then
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -51,10 +58,11 @@ public class FizzBuzzTest {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Fizz Buzz";
-        String actual = fizzBuzz.countOff(15);
+        int input = 15;
         //when
-        assertEquals(expected, actual);
+        String actual = fizzBuzz.countOff(input);
         //then
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -62,10 +70,11 @@ public class FizzBuzzTest {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Fizz Whizz";
-        String actual = fizzBuzz.countOff(21);
+        int input = 21;
         //when
-        assertEquals(expected, actual);
+        String actual = fizzBuzz.countOff(input);
         //then
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -73,10 +82,11 @@ public class FizzBuzzTest {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         String expected = "Buzz Whizz";
-        String actual = fizzBuzz.countOff(35);
+        int input=35;
         //when
-        assertEquals(expected, actual);
+        String actual = fizzBuzz.countOff(input);
         //then
+        assertEquals(expected, actual);
     }
 
     @Test

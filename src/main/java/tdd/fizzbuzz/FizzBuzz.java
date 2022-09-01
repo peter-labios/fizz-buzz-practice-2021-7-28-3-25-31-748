@@ -15,14 +15,14 @@ public class FizzBuzz {
         if (i % 3 == 0 && i % 5 == 0) {
             return "Fizz Buzz";
         }
-        if (i % 3 == 0) {
-            return "Fizz";
+        if (i % 7 == 0) {
+            return "Whizz";
         }
         if (i % 5 == 0) {
             return "Buzz";
         }
-        if (i % 7 == 0) {
-            return "Whizz";
+        if (i % 3 == 0) {
+            return "Fizz";
         }
         return String.valueOf(i);
     }
