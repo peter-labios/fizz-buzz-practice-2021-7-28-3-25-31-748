@@ -3,6 +3,6 @@ package tdd.fizzbuzz;
 public class FizzBuzz {
 
     public String countOff(int i) {
-        return String.valueOf(i);
+        return i%3==0 ? "fizz" : String.valueOf(i);
     }
 }
